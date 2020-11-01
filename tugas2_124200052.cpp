@@ -32,12 +32,12 @@ int main()
 	{bantuan_anak1 = 15000;}
 	
 	cout << "Umur Anak 2	: " ; cin >> anak2;
-	if (12<=anak2>=20)
-	{bantuan_anak2 = 20000;}
+	if (anak2<=12)
+	{bantuan_anak2 = 15000;}
 	else if (anak2>20)
 	{bantuan_anak2 = 30000;}
-	else if (anak2<=12)
-	{bantuan_anak2 = 15000;}
+	else if (12<=anak1>=20)
+	{bantuan_anak1 = 20000;}
 
 
 	x = (bantuan_ayah + bantuan_ibu + bantuan_anak1 + bantuan_anak2) * 30;
